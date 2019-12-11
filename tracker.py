@@ -4,7 +4,7 @@ import gspread
 import time
 from oauth2client.service_account import ServiceAccountCredentials
 
-CONFIG_FILE_NAME = "config.json"
+CONFIG_FILE_NAME = "cfg/config.json"
 CONFIG = json.load(open(CONFIG_FILE_NAME))
 
 
